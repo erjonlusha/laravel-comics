@@ -1,0 +1,36 @@
+.footer_jumbo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .footer_container{
+        width: $body_width;
+        margin: auto;
+        color: $unselected_gray;
+        ul{
+            padding: 0px;
+            li {
+                font-size: $font_size_small;
+                font-weight: 400;
+                list-style: none;
+            }
+        }
+        h5{
+            text-transform: uppercase;
+            color: white;
+        }
+        .a {
+            width: 50%;
+        .pr-4{padding-right: 2rem!important;}
+        }
+        .b{
+            width: 50%;
+            position: relative;
+            img{
+                position: absolute;
+                top: -45%;
+                right: 0;
+            }
+        }
+    }
+
+}

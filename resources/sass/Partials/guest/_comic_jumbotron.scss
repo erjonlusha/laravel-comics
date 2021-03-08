@@ -1,0 +1,22 @@
+.comic_jumbotron{
+    width: 100%;
+    height: 42vh;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    .blue{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(0deg, $blue 30%, rgba(255, 255, 255, 0) 30%);
+        .cover{
+        width: $width_comic;
+        margin: auto;
+        img{
+            border: 1px solid white;
+            margin-bottom:10px;
+        }
+        }
+    }
+}

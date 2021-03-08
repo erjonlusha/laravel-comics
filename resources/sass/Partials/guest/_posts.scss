@@ -1,0 +1,32 @@
+.posts{
+    width: $body_width;
+    margin: auto;
+    .title,
+    .post_card>.post_title,
+    .post_card>.sub_title {
+        text-transform: uppercase;
+    }
+    .title{
+        font-size: $font_size_label;
+        font-weight: 700;
+        padding: 45px;
+        text-align: center;
+        color: $blue;
+    }
+    .post_card{
+        .post_title{
+            color: $blue;
+            font-size: $font_size_small;
+            font-weight: 700;
+        }
+        .sub_title{
+            font-weight: 700;
+            color: $font_dark;
+        }
+        img{width: 308px;}
+        small{
+            width: 308px;
+            color: $font_dark;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@mixin parallelogramma($base, $angoloDiBase, $sfondo, $testo) {
+    width: $base;
+    -moz-transform: skew($angoloDiBase);
+    -webkit-transform: skew($angoloDiBase);
+    -ms-transform: skew($angoloDiBase);
+    -o-transform: skew($angoloDiBase);
+    transform: skew($angoloDiBase);
+    background: $sfondo;
+    color: $testo;
+}

@@ -1,0 +1,17 @@
+.series {
+    background-color: $bg_dark;
+    padding: 24px 0px 0px 0px;
+    .serie{
+        width: $body_width;
+        margin: auto;
+        .card {
+            width: calc((90%/6) * 1) !important;
+            padding: 16px 0px 0px 0px;
+            .card_info{
+                padding-top: 20px;
+                padding-bottom: 50px;
+                .comic_nam_num{text-transform: uppercase;}
+            }
+        }
+    }
+}

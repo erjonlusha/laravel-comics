@@ -1,0 +1,59 @@
+.jumbotron_gtk, .series {
+    margin-top: 50px;
+    padding: 50px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    .label {
+        background-color: $blue;
+        line-height: 54px;
+        padding: 0 30px;
+        position: absolute;
+        top: -5%;
+        left: 12%;
+        font-size: $font_size_label;
+    }
+    .jumbo_nav {
+        nav{
+            .nav-link{
+                font-size: $font_size_small;
+                color: $unselected_gray;
+                padding:1rem 0.5rem
+            }
+            .active{color: $blue;}
+        }
+    }
+    .jumbo_comics{
+        width: 100%;
+        .card{
+            margin: 0 10px;
+            width: calc(100%/5);
+            border:none;
+            background-color: transparent;
+            .card_img{
+                width: 100%;
+                .post_type{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: $blue;
+                    padding: 3px 20px;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .card_info{
+                font-size: $font_size_small;
+                .available{color: $blue;}
+            }
+        }
+    }
+    
+}

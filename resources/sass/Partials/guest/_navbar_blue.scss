@@ -1,0 +1,33 @@
+.navbar_blue{
+    ul {
+        .parallelogramma {
+            @include parallelogramma(200px, -15deg, $blue, $white);        
+            padding: 0;
+            text-align: center;
+            border-left: 1px solid #3797F8;
+            border-right: 1px solid #3797F8;
+            border-top: none;
+            border-bottom: none;
+            .nav-link{
+                padding-top: 0;
+                padding-bottom: 0;
+                height: $nav_bar_blue__height;
+                color: $white;
+                img {
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+                    transform: skew(15deg);
+                    height: 100%;
+                    max-width: 11.5rem;
+                }
+            }
+            .nav-link:hover {background-color: #3797F6;}
+            .active {
+                background-color: $white;
+                color: $blue;
+            }
+            .active:hover {background-color: white;}
+        }
+        background-color: $blue;
+    }
+}

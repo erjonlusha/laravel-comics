@@ -1,0 +1,49 @@
+.comic_description{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    width: 100%;
+    font-size: $font_size_label;
+    .description_container{
+        width: $width_comic;
+        margin: auto;
+        h1{
+            text-transform: uppercase;
+            padding-bottom: 35px;
+            color:$blue_font_comic;
+            font-size: $font_size_label;
+            font-weight: 700;
+        }
+
+        .green_price{
+            background-color: $green_button_bg;
+            color: white;
+            width:60%;
+            border-bottom: 1px solid $green_button_border;
+            .price{
+                padding: 15px 25px;
+                font-size: $font_size_small;
+                font-weight: 700;
+                width: 70%;
+                .available {
+                    text-align: end;
+                    color: $green_button_font;
+                    padding: 1px;
+                    text-transform: uppercase;
+                }
+            }
+            .check{
+                border-left: 1px solid $green_button_border;
+                padding: 15px 25px;
+                font-size: $font_size_small;
+                font-weight: 700;
+                // span{width: 100%;}
+            }
+        }
+
+        .description{
+            padding-top: 36px;
+            width: 65%;
+            font-size: 14px;
+        }
+    }
+}

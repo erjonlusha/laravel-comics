@@ -1,0 +1,68 @@
+.container_navbar{
+    height: $nav_bar_on_scroll__height;
+    position: relative;
+    width: $body_width;
+    margin: auto;
+    #navbar {
+        background-color: $white;
+        height: $nav_bar_on_scroll__height;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: block;
+        transition: top 0.5s;
+        
+        .navbar {
+            padding: 0;
+            //left-side logo
+            a {
+                float: left;
+                display: block;
+                font-weight: 600;
+                color: $font_dark;
+                img{height: $logo_height;}
+            }
+
+            //central 
+            #navbarNavDropdown{
+                padding: 33px 0 0 0;
+                .nav-item{
+                    .nav-link{
+                        text-transform: uppercase;
+                    }
+                    padding: 0 0 38px 0;
+                    margin: 8px;
+                    margin-bottom: 5px;
+                    border-bottom: 5px solid transparent;
+                }
+                .nav-item:hover{border-bottom: 5px solid $blue;}
+                .dropdown-toggle::after{
+                    color: $blue;
+                }
+                line-height: 15px;
+            }
+            //right side search
+            .search_bar{
+                border-bottom: 3px solid $blue;
+                width: 125px;
+                height: 30px;
+
+                input, .search_button {
+                    padding-right: 0;
+                    border: none;
+                    background-color: $white;
+                    line-height: 2.5rem;
+                    color: $font_dark;
+                    img{
+                        padding-bottom: 18px;
+                    }
+                }
+                input{
+                    width: 50px;
+                }
+                input:focus{outline: none;}
+                padding: 0px 0px 0px 0px;
+            }
+        }
+    }
+}

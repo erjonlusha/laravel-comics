@@ -1,0 +1,56 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Mixin
+@import 'mixin';
+
+//Nav-bar blue
+@import 'Partials/guest/navbar_blue';
+
+//Nav-bar on scroll
+@import 'Partials/guest/navbar';
+
+//jumbotron
+@import 'Partials/guest/_jumbotron';
+
+//posts
+@import 'Partials/guest/_posts';
+
+//series
+@import 'Partials/guest/_series';
+
+//buy bar
+@import 'Partials/guest/_buy-bar';
+
+//footer
+@import 'Partials/guest/_footer';
+
+//footer sign bar
+@import 'Partials/guest/_footer-sign-bar';
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+header{
+    border-bottom: 1px solid lightgray;
+    background-color: $white;
+}
+.jumbotron_gtk {background-image: url('../img/gtk-bkg.jpg');}
+.footer_jumbo {background-image: url('../img/footer/footer-bg.jpg');}
+
+// Comicjumbotron
+@import 'Partials/guest/_comic_jumbotron';
+.comic_jumbotron {background-image: url('../img/ww_jumbo.jpg');}
+
+// comic description
+@import 'Partials/guest/_comic_description';
+// comic detail
+@import 'Partials/guest/_comic_detail';

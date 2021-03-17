@@ -27,7 +27,7 @@
         <div class="card">
             <div class="card_img">
                 <div class="post_type">COMIC BOOK</div>
-                <img src="{{ asset('img/BM_106-1_60372409346ca3.47781476.jpg') }}" alt="">
+                <img src="{{ asset('img/ww-vikings.jpg') }}" alt="">
             </div>
             <div class="card_info">
                 <div class="comic_nam_num">Batman #106</div>
@@ -37,7 +37,7 @@
         <div class="card">
             <div class="card_img">
                 <div class="post_type">COMIC BOOK</div>
-                <img src="{{ asset('img/BM_106-1_60372409346ca3.47781476.jpg') }}" alt="">
+                <img src="{{ asset('img/batman.jpg') }}" alt="">
             </div>
             <div class="card_info">
                 <div class="comic_nam_num">Batman #106</div>
@@ -47,7 +47,7 @@
         <div class="card">
             <div class="card_img">
                 <div class="post_type">COMIC BOOK</div>
-                <img src="{{ asset('img/BM_106-1_60372409346ca3.47781476.jpg') }}" alt="">
+                <img src="{{ asset('img/swamp.jpg') }}" alt="">
             </div>
             <div class="card_info">
                 <div class="comic_nam_num">Batman #106</div>
@@ -57,7 +57,7 @@
         <div class="card">
             <div class="card_img">
                 <div class="post_type">COMIC BOOK</div>
-                <img src="{{ asset('img/BM_106-1_60372409346ca3.47781476.jpg') }}" alt="">
+                <img src="{{ asset('img/ww-big.jpg') }}" alt="">
             </div>
             <div class="card_info">
                 <div class="comic_nam_num">Batman #106</div>
